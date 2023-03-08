@@ -1,0 +1,27 @@
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.myLabel {
+  font-size: 1.4rem;
+  color: #feefdd;
+  font-weight: 500;
+}
+
+.inputText {
+  background-color: #fff;
+  outline: none;
+  height: 28px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+
+.inputText::placeholder {
+  color: #ccc;
+  font-style: italic;
+}

@@ -1,0 +1,15 @@
+.primary {
+  background-color: #201e1f;
+  color: #feefdd;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #feefdd;
+  border-radius: 5px;
+  width: calc(100% - 40px);
+}
+
+.secondary {
+  /*  */
+}

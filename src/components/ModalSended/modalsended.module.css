@@ -1,0 +1,20 @@
+.textSaved {
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  width: 200px;
+  height: 100px;
+  background: #33f332;
+  z-index: 9999;
+  padding: 20px;
+  border-radius: 5px;
+  position: absolute;
+  right: -220px;
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+}
+
+.textSaved.active {
+  opacity: 1;
+}
